@@ -49,6 +49,15 @@
   .highlight { color: var(--accent); }
   .muted { color: var(--muted); }
   
+  .profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  border: 3px solid #333;
+  display: block;     
+  margin: 0 auto 10px auto; 
+  }
   .chips { display: flex; gap: 8px; margin: 14px 0; flex-wrap: wrap; }
   .chip { background: var(--chip); padding: 6px 10px; border-radius: 999px; font-size: 14px; }
   
@@ -60,4 +69,4 @@
     .hero { grid-template-columns: 1fr; }
     .grid { grid-template-columns: 1fr; }
   }
-  
+         
